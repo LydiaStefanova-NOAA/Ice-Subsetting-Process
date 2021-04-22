@@ -1,5 +1,6 @@
-getIce_p6: 
+getIce: 
   Gets the ice...nc files from ice.tar on HPSS, and subsets and stores only
   aice_h,hi_h,hs_h,Tsfc_h,uvel_h,vvel_h,frz_onset_h,mlt_onset_h the 
+  User must specify experiment name and paths
 todaily.sh: 
   Converts the subsets to daily
